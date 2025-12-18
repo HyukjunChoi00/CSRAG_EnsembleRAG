@@ -1,6 +1,7 @@
 # Multi-Agent RAG System with LangGraph
 
-LangGraph를 활용한 멀티 에이전트 RAG(Retrieval-Augmented Generation) 시스템입니다.
+LangGraph를 활용한 멀티 에이전트 RAG(Retrieval-Augmented Generation) 시스템입니다.  
+(코드 품질 검사 도구 ruff 등을 사용하여 코드 품질을 지켰습니다.)  
 
 ## 빠른 테스트 (가상환경-코드 체크-평가 스크립트 실행)
 
@@ -257,5 +258,6 @@ Microsoft C++ Build Tools가 필요할 수 있습니다. `faiss-cpu` 대신 `fai
 ---
 
 **최종 업데이트**: 2025-11-25
+
 
 
