@@ -1,0 +1,38 @@
+# Core dependencies
+pandas==2.3.3
+numpy==2.3.5
+
+# LangChain ecosystem
+langchain==1.0.8
+langchain-core==1.0.7
+langchain-community==0.4.1
+langchain-openai==1.0.3
+langchain-text-splitters==1.0.0
+langgraph==1.0.3
+langgraph-checkpoint==3.0.1
+
+# Vector stores and retrievers
+faiss-cpu==1.13.0
+rank-bm25==0.2.2
+
+# OpenAI
+openai==2.8.1
+tiktoken==0.12.0
+
+# Pydantic (for data validation)
+pydantic==2.12.4
+pydantic-core==2.41.5
+
+# HTTP clients
+httpx==0.28.1
+requests==2.32.5
+
+# Utilities
+python-dotenv==1.2.1
+pyyaml==6.0.3
+tqdm==4.67.1
+
+# Code style checkers
+ruff==0.14.6
+pyright==1.1.407
+
