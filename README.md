@@ -93,32 +93,21 @@ OPENAI_API_KEY=your-api-key-here
 ## 파일 구조
 
 ```
-HJ_NKIA_Assignment_RAG
-├──codestyle                  # RAG 평가 폴더가 있는 메인 폴더
-├──최혁준_엔키아과제전형.pdf     # 보고서 파일
-├──predictions_생성예시.csv    # 실제 생성된 predictions.csv 예시
 
-codestyle/
+
+CSRAG_EnsembleRAG/
 ├── rag_agent.py              # 메인 실행 파일 (RAG 평가)
 ├── ensemble_retriever.py     # Ensemble Retriever 클래스
-├── preprocess_train.py       # 데이터 전처리 스크립트
-├── train.csv                 # 원본 학습 데이터
-├── train_processed.csv       # Knowledge Base (전처리된 학습 데이터)
 ├── requirements.txt          # 의존성 패키지 목록
 ├── Makefile                  # 코드 품질 관리 명령어
 ├── README.md                 # 프로젝트 문서
 ├── images/                   # 문서용 이미지
 │   └── performance_results.png
-└── data/
-    ├── dev.csv              # 평가할 테스트 데이터
-    └── predictions.csv      # 결과 파일 (자동 생성)
+
 ```
 
 ### 파일 설명
 
-- **`train.csv`**: 원본 학습 데이터
-- **`preprocess_train.py`**: 데이터 전처리 스크립트 (`train.csv` → `train_processed.csv` 변환)
-- **`train_processed.csv`**: 전처리된 학습 데이터로, RAG Knowledge Base로 사용
 - **`rag_agent.py`**: Multi-Agent RAG 시스템 메인 실행 파일
 - **`ensemble_retriever.py`**: BM25와 FAISS를 결합한 Ensemble Retriever 구현
 
@@ -268,4 +257,5 @@ Microsoft C++ Build Tools가 필요할 수 있습니다. `faiss-cpu` 대신 `fai
 ---
 
 **최종 업데이트**: 2025-11-25
+
 
